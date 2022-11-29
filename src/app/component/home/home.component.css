@@ -1,0 +1,142 @@
+
+h1{
+    font-family: 'Beth Ellen';
+color: #585757;
+}
+#b1{
+border: none;
+background-color: #eec1dd;
+color: rgb(98, 93, 93);
+font-size: 12px;
+}
+
+#d1{
+background-image: url(https://mega.com.vn/media/news/2707_background-pp-hoc-tap-lam-slide3.jpg);
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Aclonica';
+}
+
+
+
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+        border-radius: 4px;
+}
+
+
+
+
+
+.main-verification-input-item input {
+    float: left;
+    border: 3px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px
+    
+}
+
+.main-verification-button {
+    background: #eec1dd
+}
+
+.main-verification-button {
+    position: absolute;
+    right: 0px;
+    height: 50px;
+    width: 120px;
+    color: rgb(70, 67, 67);
+    top: 0;
+    border: none;
+        border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer
+}
+
+.main-verification-input-wrap {
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+        margin-top: 129px;
+}
+
+.main-verification-input-wrap ul{
+
+           background-color: #fff;
+    padding: 27px;
+    color: #757575;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none !important;
+    color: #9C27B0;
+}
+
+:focus {
+    outline: 0
+}
+
+@media only screen and (max-width: 768px) {
+    .main-verification-input {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 14px 20px 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.0)
+    }
+
+    .main-verification-input-item {
+        width: 100%;
+        border: 1px solid #eee;
+        height: 50px;
+        border: none;
+        margin-bottom: 10px
+    }
+
+    .main-verification-input-item input {
+        border-radius: 6px !important;
+        background: #fff
+    }
+
+    .main-verification-button {
+        position: relative;
+        float: left;
+        width: 100%;
+        border-radius: 6px
+    }
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background:#eee;
+}
+
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.card{
+    margin-left: 25%;
+}

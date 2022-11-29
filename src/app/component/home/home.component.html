@@ -1,0 +1,32 @@
+<div class="row" id="d1">
+    <!-- table -->
+    <div class="container mt-5 mb-5" >
+
+        <form #form="ngForm" (ngSubmit)="Add(form.value)" class="container mt-5 mb-5">
+
+            <div class="col-md-12">
+                 <div class="main-verification-input-wrap">
+                <div class="row" style="height:80px;"></div>
+                <h1 align="center" >to-do-list</h1>
+                <div class="main-verification-input fl-wrap">
+                   <div class="main-verification-input-item" > <input type="text" style="background-color:rgb(153, 181, 242);"  placeholder="Enter the task" name="task_name"  ngModel required> </div> <button class="main-verification-button">Add task</button>
+                   </div>
+               </div>
+            </div>
+
+            <br><br><br>
+           
+                        
+                        <div class="card" style="width: 34rem;"  *ngFor="let temp of taskArr">
+                            
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item" style="background-color: rgb(153, 181, 242);color: rgb(83, 86, 86);font-size: 14px;">{{temp.task_name}}<div class="d-flex align-items-center"><button class="btn btn-secondary" type="button" id="b1" >delete</button>&nbsp;<button id="b1" class="btn btn-secondary" type="button">edit</button></div>
+                              </li>
+                            </ul>
+                            
+                          </div>
+        </form>
+       
+    
+    </div>
+  </div>
